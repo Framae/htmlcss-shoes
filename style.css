@@ -8,3 +8,16 @@
     height: 100vh;
     background: red;
 }
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 30px 30px;
+}
+
+nav ul li a {
+    text-align: right;
+}
