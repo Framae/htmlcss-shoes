@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#rosso {
+    height: 100vh;
+    background: red;
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    right: 15px;
+    z-index: 3;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px 20px 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: white;
+    padding: 20px 24px;
+    vertical-align: middle;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 1px 1px #000;
+}
+
+a:hover {
+    box-shadow: 2px 2px 10px;
+}
+
+.superga {
+    width: 40%;
+    position: absolute;
+    left: 33%;
+    bottom: 30%;
+}
+
+.title {
+    color: yellow;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    bottom: 20%;
+    width: 35%;
+}
+
+#verde {
+    height: 100vh;
+    background: green;
+    position: relative;
+}
+
+#giallo {
+    height: 100vh;
+    background: yellow;
+    position: relative;
+}
+
+.titolo {
+    color: green;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    bottom: 20%;
+    width: 35%;
+}
